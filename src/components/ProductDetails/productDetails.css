@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700');
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+
+a {
+  text-decoration: none;
+  color: #5c7fb8;
+}
+a:hover {
+  text-decoration: underline;
+}
+.movie-card {
+  font: 14px/22px 'Lato', Arial, sans-serif;
+  color: #a9a8a3;
+  padding: 40px 0;
+}
+.containers {
+  margin: 0 auto;
+  width: 90%;
+
+  background: #f0f0ed;
+  border-radius: 5px;
+}
+.hero {
+  height: 342px;
+  margin: 0;
+
+  overflow: hidden;
+  z-index: 1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.details {
+  padding: 190px 0 0 280px;
+}
+.details .title1 {
+  color: white;
+  font-size: 44px;
+  margin-bottom: 13px;
+}
+.details .title1 span {
+  margin-left: 12px;
+  background: #c4af3d;
+  border-radius: 5px;
+  color: #544c21;
+  font-size: 14px;
+  padding: 0px 4px;
+}
+.details .title2 {
+  color: #c7c1ba;
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.details .likes {
+  margin-left: 24px;
+}
+.details .likes:before {
+  content: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/icon_like.png');
+  position: relative;
+  top: 2px;
+  padding-right: 7px;
+}
+.description {
+  height: auto;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b1b0ac;
+  display: flex;
+
+  align-items: center !important;
+  justify-content: center;
+}
+.column1 {
+  flex: 1;
+  margin: auto;
+}
+
+.column2 {
+  padding: 30px;
+
+  width: 480px;
+  flex: 2;
+}
+
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+.column2 {
+  text-align: center;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+}
