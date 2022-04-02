@@ -11,6 +11,7 @@ In the project directory, you can run:
 2. npm start
 
 OR
+
 1. yarn install
 2. yarn start
 ```
