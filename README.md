@@ -9,6 +9,10 @@ In the project directory, you can run:
 ```
 1. npm install
 2. npm start
+
+OR
+1. yarn install
+2. yarn start
 ```
 
 ### `yarn start`
