@@ -16,6 +16,15 @@ OR
 2. yarn start
 ```
 
+## Used Tech
+```
+React
+Redux
+Axios
+Bootstrap
+Preloaders
+React Router
+```
 ### `yarn start`
 
 Runs the app in the development mode.\
